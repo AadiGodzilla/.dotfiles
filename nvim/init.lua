@@ -19,6 +19,7 @@ require("config.nvim-treesitter-context")
 require("config.nvim-breadcrumbs")
 
 vim.cmd("colorscheme base16-onedark")
+vim.cmd("TSContextDisable")
 
 vim.diagnostic.config({
     virtual_text = false,
