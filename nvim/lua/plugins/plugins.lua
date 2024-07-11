@@ -56,10 +56,10 @@ return require("packer").startup(function(use)
     use("romgrk/barbar.nvim")
     use("adelarsq/image_preview.nvim")
 
-    use("nvim-treesitter/nvim-treesitter-context")
     use("windwp/nvim-ts-autotag")
     use("stevearc/conform.nvim")
     use("lukas-reineke/indent-blankline.nvim")
+    use("nvim-treesitter/nvim-treesitter-context")
     use("mfussenegger/nvim-lint")
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.6',
@@ -67,6 +67,8 @@ return require("packer").startup(function(use)
     }
     use({ "nvim-telescope/telescope-file-browser.nvim", require = { 'nvim-telescope/telescope.nvim', 'nvim-lua/plenary.nvim' } })
     use("marko-cerovac/material.nvim")
+    use { "SmiteshP/nvim-navic" }
+    use { "LunarVim/breadcrumbs.nvim", require = { "SmiteshP/nvim-navic" } }
 
     use("RRethy/base16-nvim")
     if packer_bootstrap then

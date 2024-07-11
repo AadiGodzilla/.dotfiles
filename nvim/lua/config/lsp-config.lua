@@ -56,6 +56,10 @@ require("lspconfig")["rust_analyzer"].setup({
     }
 })
 
+require("lspconfig")["bashls"].setup({
+    capabilities = capabilities
+})
+
 require("lspconfig")["lua_ls"].setup({
     capabilities = capabilities,
     Lua = {

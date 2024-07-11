@@ -10,14 +10,15 @@ require("config.lsp-config")
 require("config.nvim-cmp")
 require("config.nvim-treesitter")
 require("config.colorizer")
-require("config.nvim-treesitter-context")
 require("config.ibl")
 require("config.lint-nvim")
 require("config.telescope")
 require("config.gruvbox")
 require("config.material")
+require("config.nvim-treesitter-context")
+require("config.nvim-breadcrumbs")
 
-vim.cmd("colorscheme material-darker")
+vim.cmd("colorscheme base16-onedark")
 
 vim.diagnostic.config({
     virtual_text = false,
