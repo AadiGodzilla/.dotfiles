@@ -17,6 +17,7 @@ require("config.gruvbox")
 require("config.material")
 require("config.nvim-treesitter-context")
 require("config.nvim-breadcrumbs")
+require("config.transparency")
 
 vim.cmd("colorscheme base16-onedark")
 vim.cmd("TSContextDisable")

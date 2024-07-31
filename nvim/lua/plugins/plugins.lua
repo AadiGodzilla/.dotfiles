@@ -69,6 +69,7 @@ return require("packer").startup(function(use)
     use("marko-cerovac/material.nvim")
     use { "SmiteshP/nvim-navic" }
     use { "LunarVim/breadcrumbs.nvim", require = { "SmiteshP/nvim-navic" } }
+    use { "xiyaowong/transparent.nvim" }
 
     use("RRethy/base16-nvim")
     if packer_bootstrap then
