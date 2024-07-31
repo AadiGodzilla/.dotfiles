@@ -17,7 +17,6 @@ require("config.gruvbox")
 require("config.material")
 require("config.nvim-treesitter-context")
 require("config.nvim-breadcrumbs")
-require("config.transparency")
 
 vim.cmd("colorscheme base16-onedark")
 vim.cmd("TSContextDisable")
@@ -28,3 +27,5 @@ vim.diagnostic.config({
 
 vim.o.updatetime = 250
 vim.cmd([[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]])
+
+require("config.transparency")
