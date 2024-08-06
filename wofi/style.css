@@ -1,0 +1,29 @@
+#window {
+    background-color: rgba(47, 52, 63, 0.9);
+    border: 1px solid Aqua;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+#outer-box {
+    padding: 15px 10px 10px 10px;
+}
+
+#input {
+    border-radius: 10px;
+    border: 1px solid Aqua;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+}
+
+#img {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#entry {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}

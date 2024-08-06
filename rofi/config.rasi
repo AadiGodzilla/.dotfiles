@@ -1,0 +1,10 @@
+configuration {
+    display-drun: "Applications:";
+    display-dmenu: "Dmenu:";
+    display-ssh: "SSH:";
+    display-combi: "Combi:";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+}
+//@theme "mytheme"@theme "/home/aadigodzilla/.config/rofi/themes/mytheme.rasi"
+@theme "/home/aadigodzilla/.config/rofi/themes/mytheme.rasi"

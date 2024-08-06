@@ -1,0 +1,85 @@
+* {
+	sbg: #50AAF2;
+	gm: 3px;
+	background-color: transparent;
+	color: #FFFFFF;
+	font: "Noto Sans 13";
+}
+
+window {
+	border: 1px;
+	border-color: @sbg;
+	border-radius: 10px;
+	height: 60%;
+    background-color: #2F343FDD;
+	padding: 5px;
+}
+
+inputbar {
+	background-color: #4C4C4C;
+	border-radius: 5px;
+	margin: @gm;
+}
+
+entry, case-indicator {
+	background-color: inherit;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+prompt {
+	background-color: @sbg;
+	padding: 5px;
+	color: black;
+	highlight: bold;
+	border-radius: 5px;
+}
+
+entry {
+	cursor: text;
+}
+
+listview {
+	margin: @gm;
+	scrollbar: true;
+	scrollbar-width: 7px;
+	spacing: 5px;
+    background-color: transparent;
+}
+
+element {
+    background-color: transparent;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px;
+}
+
+element selected {
+	background-color: @sbg;
+}
+
+element-icon {
+    background-color: transparent;
+	size: 24;
+}
+
+element-text {
+    background-color: transparent;
+}
+
+element-text selected {
+	background-color: @sbg;
+	color: black;
+}
+
+element-icon selected {
+	background-color: @sbg;
+}
+
+element, element-icon, element-text {
+	cursor: pointer;
+}
+
+scrollbar {
+	handle-color: @sbg;
+}
