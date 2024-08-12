@@ -223,7 +223,7 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 
-bindsym Print exec sway-interactive-screenshot
+bindsym Print exec grim -g "$(slurp)"
 
 bindsym $mod+r mode "resize"
 
@@ -258,7 +258,6 @@ default_border pixel 2
 default_floating_border pixel 2
 smart_borders on
 
-blur enable
 corner_radius 5
 
 # Startup scripts
