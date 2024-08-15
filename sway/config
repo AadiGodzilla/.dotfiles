@@ -250,8 +250,6 @@ bindsym $mod+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
 client.focused          #555555 #7ae0e6 #7ae0e6 #7ae0e6
 client.focused_inactive		#4a4a4a #4a4a4a #FFFFFF #4a4a4a #4a4a4a
 
-gaps inner 1
-
 smart_gaps on
 
 default_border pixel 2
