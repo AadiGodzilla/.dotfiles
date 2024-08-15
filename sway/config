@@ -250,7 +250,7 @@ bindsym $mod+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
 client.focused          #555555 #7ae0e6 #7ae0e6 #7ae0e6
 client.focused_inactive		#4a4a4a #4a4a4a #FFFFFF #4a4a4a #4a4a4a
 
-gaps inner 4
+gaps inner 1
 
 smart_gaps on
 
@@ -275,7 +275,6 @@ include /etc/sway/config.d/*
 # Floating Windows
 for_window [app_id="file-roller"] floating enable
 for_window [app_id="zenity"] floating enable
-for_window [instance="Hello World"] floating enable
 for_window [class="steam"] floating enable
 for_window [app_id="blueman-manager"] floating enable
 for_window [app_id="pavucontrol"] floating enable

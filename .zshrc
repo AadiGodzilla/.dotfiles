@@ -18,3 +18,9 @@ alias grep="grep --color=auto"
 alias ls="ls --color=auto"
 export EDITOR=nvim
 
+
+
+autoload -Uz compinit
+compinit
+# Load Angular CLI autocompletion.
+source <(ng completion script)
