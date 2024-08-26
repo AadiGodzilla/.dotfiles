@@ -69,6 +69,10 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
+input "Aadikshar's_Pixel_Buds" {
+    tap enabled
+}
+
 # Mouse acceleration
 input "type:pointer" {
     dwt enabled
@@ -250,6 +254,8 @@ bindsym $mod+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
 client.focused          #555555 #7ae0e6 #7ae0e6 #7ae0e6
 client.focused_inactive		#4a4a4a #4a4a4a #FFFFFF #4a4a4a #4a4a4a
 
+gaps outer 2
+gaps inner 4
 smart_gaps on
 
 default_border pixel 2
@@ -284,4 +290,6 @@ for_window [class="Virtual Machine"] floating enable
 for_window [app_id="nemo"] floating enable
 for_window [app_id="nm-connection-editor"] floating enable
 for_window [title="Game"] floating enable
-
+for_window [app_id="libreoffice-calc"] floating enable
+for_window [class="Tk"] floating enable
+for_window [class="Toplevel"] floating enable
