@@ -71,6 +71,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 input "688:0:Aadikshar's_Pixel_Buds_(AVRCP)" {
     tap enabled
+    natural_scroll enabled
 }
 
 # Mouse acceleration
