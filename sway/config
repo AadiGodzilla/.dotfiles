@@ -78,7 +78,7 @@ input "688:0:Aadikshar's_Pixel_Buds_(AVRCP)" {
 input "type:pointer" {
     dwt enabled
 	accel_profile "flat"
-	pointer_accel 0.1
+	pointer_accel 0.15
     calibration_matrix -0.5 1 1 1 0.5 1
 }
 
@@ -283,14 +283,8 @@ for_window [app_id="zenity"] floating enable
 for_window [class="steam"] floating enable
 for_window [app_id="blueman-manager"] floating enable
 for_window [app_id="pavucontrol"] floating enable
-for_window [class="VirtualBox"] floating enable
-for_window [class="VirtualBox Manager"] floating enable
-for_window [class="VirtualBox Machine"] floating disable
 for_window [app_id="eom"] floating enable
-for_window [class="Virtual Machine"] floating enable
 for_window [app_id="nemo"] floating enable
 for_window [app_id="nm-connection-editor"] floating enable
-for_window [title="Game"] floating enable
-for_window [app_id="libreoffice-calc"] floating enable
 for_window [class="Tk"] floating enable
 for_window [class="Toplevel"] floating enable

@@ -48,7 +48,7 @@
     },
     "custom/power-menu": {
         "format": "",
-        "on-click": "~/.config/polybar/modules/power_menu.sh",
+        "on-click": "~/.config/waybar/modules/power_menu.sh",
     },
     "keyboard-state": {
         "numlock": true,
