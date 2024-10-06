@@ -10,14 +10,14 @@ vim.keymap.set("n", "<space>fb", ":Telescope file_browser path=%:p:h select_buff
 
 -- main setup
 telescope.setup({
-   defaults = {
-      file_ignore_patterns = { "include", "node_modules" },
-   },
-   pickers = {
-      buffers = {
-         initial_mode = "normal"
-      }
-   }
+    defaults = {
+        file_ignore_patterns = { "include", "node_modules", "build" },
+    },
+    pickers = {
+        buffers = {
+            initial_mode = "normal"
+        }
+    }
 })
 
 -- extensions
