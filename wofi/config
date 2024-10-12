@@ -4,9 +4,9 @@ width=50%
 height=60%
 prompt=Search
 image_size=25
-no_actions=true
 key_forward=Ctrl-n
 key_backward=Ctrl-p
 exec_search=true
-sort_order=alphabetical
 dynamic_lines=true
+gtk_dark=true
+

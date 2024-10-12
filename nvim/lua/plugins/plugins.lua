@@ -34,7 +34,6 @@ return require("packer").startup(function(use)
     })
     use({
         "nvim-treesitter/nvim-treesitter",
-        run = ":TSUpdate",
     })
     use({
         "williamboman/mason.nvim",
@@ -70,6 +69,7 @@ return require("packer").startup(function(use)
     use { "SmiteshP/nvim-navic" }
     use { "LunarVim/breadcrumbs.nvim", require = { "SmiteshP/nvim-navic" } }
     use("xiyaowong/transparent.nvim")
+    use("olimorris/onedarkpro.nvim")
 
     use("RRethy/base16-nvim")
     if packer_bootstrap then

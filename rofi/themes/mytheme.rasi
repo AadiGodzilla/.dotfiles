@@ -11,7 +11,7 @@ window {
 	border-color: @sbg;
 	border-radius: 10px;
 	height: 60%;
-    background-color: #2F343FDD;
+    background-color: #2a2e32DD;
 	padding: 5px;
 }
 

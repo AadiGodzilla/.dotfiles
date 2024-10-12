@@ -26,7 +26,6 @@ vim.diagnostic.config({
 })
 
 vim.o.updatetime = 250
-vim.cmd [[highlight Function gui=bold]]
 vim.cmd([[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]])
 
 require("config.transparency")
