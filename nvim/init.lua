@@ -1,6 +1,6 @@
 require("core.core")
-require("config.base16-colorscheme")
 require("plugins.plugins")
+require("config.base16-colorscheme")
 require("config.conform")
 require("config.barbar")
 require("config.nvim-tree")
