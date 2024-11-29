@@ -18,9 +18,8 @@ alias grep="grep --color=auto"
 alias ls="ls --color=auto"
 export EDITOR=nvim
 
-
+export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
+export LIBGL_ALWAYS_INDIRECT=1
 
 autoload -Uz compinit
 compinit
-# Load Angular CLI autocompletion.
-source <(ng completion script)
