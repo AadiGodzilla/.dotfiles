@@ -70,8 +70,9 @@ return require("packer").startup(function(use)
     use { "LunarVim/breadcrumbs.nvim", require = { "SmiteshP/nvim-navic" } }
     use("xiyaowong/transparent.nvim")
     use("olimorris/onedarkpro.nvim")
-
     use("RRethy/base16-nvim")
+    use("Mofiqul/vscode.nvim")
+
     if packer_bootstrap then
         require("packer").sync()
     end

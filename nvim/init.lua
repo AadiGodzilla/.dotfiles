@@ -18,7 +18,7 @@ require("config.material")
 require("config.nvim-treesitter-context")
 require("config.nvim-breadcrumbs")
 
-vim.cmd("colorscheme base16-onedark")
+vim.cmd("colorscheme vscode")
 vim.cmd("TSContextDisable")
 
 vim.diagnostic.config({
